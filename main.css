@@ -1,0 +1,138 @@
+@import url('colors.css');
+@import url('font.css');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: openSansSemiBold;
+}
+
+.generalInfoCards-wrapper {
+    display: grid;
+    padding: 20px;
+    row-gap: 20px;
+}
+.generalInfoCards {
+    width: 100%;
+    border-radius: 3px;
+    background: var(--white);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+    padding: 16px 13px;
+}
+.generalInfoCards-header {
+    color: var(--dark-blue);
+    font-family: openSansBold;
+    font-size: 1.25rem;
+    line-height: 16.828px;
+    word-break: break-all;
+}
+.generalInfoCards-body {
+    color: var(--dark-blue);
+    text-align: center;
+    font-family: openSansBold;
+    font-size: 4.063rem;
+    line-height: 39.828px;
+    padding-top: 28px;
+    padding-bottom: 32px;
+}
+.generalInfoCards-footer {
+    display: flex;
+    width: 100%;
+}
+.generalInfoCards-footer_left {
+    width: calc(50% - 1px); 
+    padding: 0 19px 7px 19px;
+    border-right: 1px solid var(--light-gray);
+}
+.generalInfoCards-footer_title {
+    color: var(--dark-gray);
+    font-size: 0.75rem;
+    line-height: 16.828px;
+    margin-bottom: 8px;
+}
+.generalInfoCards-footer_text {
+    color: var(--dark-gray);
+    font-size: 0.75rem;
+    line-height: 16.828px;
+}
+.generalInfoCards-footer_count {
+    color: var(--red);
+    font-family: openSansBold;
+    font-size: 1.125rem;
+    line-height: 21.828px;
+}
+.generalInfoCards-footer_text:last-child .generalInfoCards-footer_count {
+    color: var(--dark-green);
+}
+.generalInfoCards-footer_right {
+    width: 50%; 
+    padding: 0 19px 7px 31px;
+}
+.generalInfoCards-footer_right-result {
+    color: var(--black);
+    font-family: openSansBold;
+    font-size: 1.125rem;
+    line-height: 16.828px;
+}
+.generalInfoCards-headerEdit {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 17px;
+}
+.generalInfoCards-btn {
+    border: none;
+    background: var(--white);
+    cursor: pointer;
+}
+.generalInfoCards-massage {
+    padding: 10px;
+    background: var(--tin-light-gray);
+    border-radius: 3px;
+    min-height: 138px;
+}
+.generalInfoCards-FilterYears {
+    display: flex;
+    align-items: center;
+}
+.generalInfoCards-year {
+    color: var(--black);
+    font-family: openSansBold;
+    font-size: 1.5rem;
+    margin-right: 12px;
+}
+.generalInfoCards-dropDown {
+    border-radius: 3px;
+    border: 1px solid var(--dark-gray);
+    background: var(--white);
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.25);
+    padding: 11px 8px;
+    line-height: 0;
+    cursor: pointer;
+}
+.generalInfoCards-summary {
+    border-radius: 3px;
+    background: linear-gradient(225deg, #E0F4FF 0%, #ECFFF9 100%);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+    padding: 7px 10px 10px 10px;
+    margin-bottom: 15px;
+}
+.generalInfoCards-summary:last-child {
+    margin-bottom: 0;
+}
+.generalInfoCards-summary_title {
+    color: var(--dark-gray);
+    font-size: 0.75rem;
+    line-height: 16.828px;
+    margin-bottom: 9px;
+}
+.generalInfoCards-summary_subText {
+    color: var(--dark-blue);
+}
+.generalInfoCards-summary_number {
+    color: var(--dark-blue);
+    font-family: openSansBold;
+    font-size: 1.125;
+    line-height: 16.828px;
+}
